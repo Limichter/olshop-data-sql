@@ -1,1 +1,1 @@
-letakkan foldet loshop pada htdocs xampp
+letakkan folder olshop pada htdocs xampp
