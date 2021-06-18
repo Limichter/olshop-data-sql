@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family : “Trebuchet MS”, Helvetica, sans-serif;
+} 
+.hero{
+	margin-left: 100px;
+	margin-right: 40px;
+}
+ .navbar{
+	display: flex;
+	align-items: center;
+	margin: 70px auto;
+ }
+ .navbar ul{
+	flex: 1;
+	text-align: right;
+ }
+ .navbar ul li{
+	 display: inline-block;
+	 list-style: none;
+	 margin: 0 15px;
+ }
+ .navbar ul li a{
+	 text-decoration: none;
+	 color: #000;
+	 padding: 0 10px;
+	 position: relative;
+ }
+ .navbar ul li a::after{
+	 content:'';
+	 width: 0%;
+	 height: 10px;
+	 background: #FFD043;
+	 position: absolute;
+	 left: 55%;
+	 transform: translateX(-55%);
+	 top: -65px;
+	 transition: 0.5s;
+ }
+ .navbar ul li a:hover::after{
+	 width: 100%;
+ }
+ .navbar h4{
+	 text-align: left;
+	 font-size: 40px;
+ }
+.login{
+	margin-left: 580px;
+}
+span{
+	color: #FFD043;
+}
+p{
+	font-weight: bold;
+}
+.login form{
+	margin-top: 100px;
+}
+form input{
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border: none;
+	outline: none;
+	background: none;
+	border-bottom: 1px solid #FFD043;
+}
+.tombol input{
+	margin-top: 20px;
+	margin-left: 60px;
+	width: 100px;
+	font-size: 20px;
+	font-weight: bold;
+	background: none;
+	border: 2px solid #FFD043;
+	color: black;
+	padding: 5px;
+}
